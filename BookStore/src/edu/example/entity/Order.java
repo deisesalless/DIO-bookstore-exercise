@@ -67,11 +67,11 @@ public class Order {
 	
 	@Override
     public String toString() {
-        return "Pedido{" +
-                "codigo='" + code + '\'' +
-                ", cliente=" + client +
-                ", produtos=" + getBoughtProducts() +
-                ", total=" + totalPrice +
+        return "Pedido {" +
+                "codigo = '" + code + '\'' +
+                ", cliente = " + client +
+                ", produtos = " + getBoughtProducts() +
+                ", total = " + totalPrice +
                 '}';
     }
 }

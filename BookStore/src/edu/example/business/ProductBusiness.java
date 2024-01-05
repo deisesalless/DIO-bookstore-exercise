@@ -14,13 +14,13 @@ public class ProductBusiness {
 	
 	// Método para salvar um novo produto(livro)
     public void create(Product newProduct) {
-        String code = "PR%00d";
+        String code = "PR00d";
         code = String.format(code, dataBase.getProduct().length);
         newProduct.setCode(code);
 
         boolean repeatedProduct = false;
         for (Product product: dataBase.getProduct()) {
-            if (product.getCode().equalsIgnoreCase(newProduct.getCode())); {
+            if (product.getCode().equalsIgnoreCase(newProduct.getCode())) {
             	repeatedProduct= true;
                 System.out.println("Produto já cadastrado.");
                 break;

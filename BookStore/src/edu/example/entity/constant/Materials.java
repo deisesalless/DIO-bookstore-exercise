@@ -2,9 +2,9 @@ package edu.example.entity.constant;
 
 public enum Materials {
 	
-	MATERIA2(2),
-	MATERIA5(5),
-	MATERIA7(7);
+	M2(2),
+	M5(5),
+	M7(7);
 	private double factor;
 
 	Materials(double factor) {

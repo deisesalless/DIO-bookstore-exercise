@@ -40,9 +40,9 @@ public class Book extends Product {
     public String toString() {
         return "Livro {" +
                 "nome ='" + name + '\'' +
-                ", genero =" + kindBook + '\'' +
-                ", codigo ='" + getCode() + '\'' +
-                ", preço ='" + getPrice() + '\'' +
+                ", genero = " + kindBook + '\'' +
+                ", codigo = '" + getCode() + '\'' +
+                ", preço = '" + getPrice() + '\'' +
                 '}';
     }
 }

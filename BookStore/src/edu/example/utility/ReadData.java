@@ -41,11 +41,10 @@ public final class ReadData {
 		String bookType = readData();
 		book.setBookType(Kindbook.valueOf(bookType.toUpperCase()));
 
-		System.out.println("Digite o preço: (padrão 0.00)");
+		System.out.println("Digite o preço:(padrão 0.00)");
 		String price = readData();
 		book.setPrice(Double.parseDouble(price));
-		
-		return book;
+	    return book;
 	}
 	
 	// Método para ler os dados do caderno que será cadastrado

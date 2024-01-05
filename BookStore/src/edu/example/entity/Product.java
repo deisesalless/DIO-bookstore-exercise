@@ -34,8 +34,5 @@ public abstract class Product {
 		this.price = price;
 	}
 	
-	public abstract double calculateFreight();
-	
-	
-	
+	public abstract double calculateFreight();	
 }
